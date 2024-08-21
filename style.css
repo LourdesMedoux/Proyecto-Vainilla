@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    color: rgb(7, 7, 7);
+    background-image: url(WhatsApp\ Image\ 2024-08-14\ at\ 12.47.59.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    height: 100VH;
+    
+
+}
+
+header{
+    
+    align-items: center;
+    padding: 10px 60px;
+    justify-content: space-between;
+}
+
+a {
+    display: inline;
+}
+
+.boton-borde{
+color: red;
+padding: 16px;
+}
+
+main{
+    padding: 10px 60px;
+    flex-direction: column;
+    gap: 15px;
+    width: 600px;
+}
+
+main-div{
+    margin-bottom: 20px;
+    
+}
+
+main-important-text{
+    font-size: x-large;
+}
+
+main-p{
+    font-size: 25;
+    margin: ;
+}
+main-&.aclaraciones{
+font-style: italic;
+}
+
+main-heading-text{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.bold{
+    font-weight: 650;
+    color: antiquewhite;
+}
+
+boton-int{
+    background-color: ;
+}
