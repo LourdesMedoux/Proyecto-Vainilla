@@ -5,8 +5,10 @@ body{
     background-image: url(WhatsApp\ Image\ 2024-08-14\ at\ 12.47.59.jpeg);
     display: flex;
     flex-direction: column;
-    justify-content: space;
+    justify-content:space-around;
     height: 100VH;
+    text-align: center;
+    margin: 0;
     
 
 }
@@ -20,32 +22,38 @@ header{
 
 a {
     display: inline;
+    font-size: 45px;
 }
 
-.boton-borde{
-color: red;
-padding: 16px;
-}
+
 
 main{
     padding: 10px 60px;
     flex-direction: column;
     gap: 15px;
-    width: 600px;
+    
+    
 }
 
-main-div{
+div{
     margin-bottom: 20px;
+    text-align: center;
     
 }
 
 main-important-text{
     font-size: x-large;
 }
+h1{
+    font-size: 120px;
+    margin-top: 60px;
+    margin-top: 60px;
+    text-align: center;
+}
 
-main-p{
-    font-size: 25;
-    margin: ;
+p{
+    font-size: 40px;
+    margin-top: 20px;
 }
 main-&.aclaraciones{
 font-style: italic;
@@ -63,4 +71,45 @@ main-heading-text{
 
 boton-int{
     background-color: ;
+}
+
+nav{
+    font-size: 45px;
+    margin-top: 24px;
+    
+}
+
+button {
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+.boton-borde {
+
+    border: 1px solid #fc2525;
+    color: #f75959;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.boton-borde:hover {
+    background-color: #e66787;
+    color: #fff;
+}
+
+label{
+    
+    font-weight: bold;
+    font-size: 67px;
+}
+
+input{
+    size: 60px;
+}
+
+.logo {
+    width: 150px; /* Ajusta el ancho del logo */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    display: block; /* Asegura que la imagen se comporte como un bloque para centrado */
+    margin: 0 auto; 
 }
