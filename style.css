@@ -21,7 +21,7 @@ header{
 }
 
 a {
-    display: inline;
+    
     font-size: 45px;
 }
 
@@ -35,11 +35,7 @@ main{
     
 }
 
-div{
-    margin-bottom: 20px;
-    text-align: center;
-    
-}
+
 
 main-important-text{
     font-size: x-large;
@@ -55,14 +51,12 @@ p{
     font-size: 40px;
     margin-top: 20px;
 }
+
 main-&.aclaraciones{
 font-style: italic;
 }
 
-main-heading-text{
-    font-size: 50px;
-    font-weight: bolder;
-}
+
 
 .bold{
     font-weight: 650;
@@ -84,18 +78,6 @@ button {
     font-size: xx-large;
 }
 
-.boton-borde {
-
-    border: 1px solid #fc2525;
-    color: #f75959;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.boton-borde:hover {
-    background-color: #e66787;
-    color: #fff;
-}
 
 label{
     
@@ -107,9 +89,21 @@ input{
     size: 60px;
 }
 
-.logo {
-    width: 150px; /* Ajusta el ancho del logo */
-    height: auto; /* Mantiene la proporción original de la imagen */
-    display: block; /* Asegura que la imagen se comporte como un bloque para centrado */
-    margin: 0 auto; 
+
+.boton-borde {
+    display: inline-block; /* Cambia el comportamiento del botón para ajustarse al contenido */
+    padding: 10px 20px; /* Ajusta el padding del botón */
+    border: 1px solid #fc2525; /* Color del borde */
+    color: #f75959; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 40px; /* Tamaño de la fuente */
+    margin: 20px 0; /* Espacio alrededor del botón (opcional) */
+    text-align: center;
+}
+
+.boton-borde:hover {
+    background-color: #e66787; /* Color de fondo al pasar el ratón */
+    color: #fff; /* Color del texto al pasar el ratón */
 }
